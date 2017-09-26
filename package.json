@@ -1,0 +1,20 @@
+{
+  "name": "multi-join",
+  "version": "0.0.1",
+  "description": "Join urls or path with this library, its a wrapper which uses path module and url-join package internally",
+  "main": "multi-join.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:josephcf/join-path-or-url.git"
+  },
+  "keywords": [
+    "url",
+    "path",
+    "join"
+  ],
+  "author": "Joseph Chirayath <ch.fr.joseph@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "url-join": "^2.0.2"
+  }
+}
