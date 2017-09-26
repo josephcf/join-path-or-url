@@ -1,6 +1,6 @@
 {
   "name": "join-path-or-url",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Join urls or path with this library, its a wrapper which uses path module and url-join package internally",
   "main": "multi-join.js",
   "repository": {
