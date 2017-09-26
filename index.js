@@ -9,7 +9,7 @@ module.exports = function () {
     if(arguments.length === 1){
         return arguments[0];
     }
-    if(arguments[0].indexof('http') !== -1){
+    if(arguments[0].indexOf('http') !== -1){
         return urljoin.apply(this, arguments);
     }else{
         return path.join.apply(this, arguments);
